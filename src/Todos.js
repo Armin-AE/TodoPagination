@@ -41,7 +41,6 @@ const Todos = () => {
     setData((last) => {
       const help = [...last];
       help[(page - 1) * 10 + i].completed = !item;
-      console.log(item, i);
       return [...help];
     });
 
